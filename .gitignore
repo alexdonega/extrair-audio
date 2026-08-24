@@ -1,0 +1,16 @@
+# Segredos (chaves de API Deepgram/OpenRouter)
+.env
+
+# Dados de entrada e saída (arquivos pessoais, não versionar)
+01-video/*
+!01-video/.gitkeep
+02-audio/
+03-transcricoes/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Ferramentas locais
+.claude/
